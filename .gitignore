@@ -76,6 +76,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
+.ipynb_checkpoints/
 .ipynb_checkpoints
 
 # IPython
@@ -148,6 +149,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+clv_project
 .env
 .envrc
 .venv
