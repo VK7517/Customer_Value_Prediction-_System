@@ -15,8 +15,8 @@ class DataIngestion:
 
         self.csv_path = os.path.join(
             "data",
-            "raw",
-            "Online Retail.csv"
+            "processed",
+            "Cleaned_Online_Retail.csv"
         )
 
         self.mysql_url = URL.create(
@@ -94,8 +94,8 @@ class DataIngestion:
             raise CustomException(e, sys)
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    ingestion = DataIngestion()
+#     ingestion = DataIngestion()
 
-    ingestion.initiate_data_ingestion()
+#     ingestion.initiate_data_ingestion()
