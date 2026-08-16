@@ -790,12 +790,6 @@ Possible future improvements include:
 - Personalized marketing recommendations
 - Customer retention recommendations
 
-## Author
-
-**Your Name**
-
-B.Tech — Data Science
-
 ## Conclusion
 
 This project demonstrates an end-to-end Machine Learning workflow for Customer Lifetime Value prediction.
